@@ -1,4 +1,4 @@
-package com.ljfp;
+package com.ljfp.shish;
 
 public class Skewer extends Shish {
     boolean onlyOnions() {

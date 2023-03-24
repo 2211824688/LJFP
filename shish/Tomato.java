@@ -1,12 +1,12 @@
-package com.ljfp;
+package com.ljfp.shish;
 
-public class Onion extends Shish {
+public class Tomato extends Shish {
     Shish s;
-    Onion(Shish s) {
+    Tomato(Shish s) {
         this.s = s;
     }
     boolean onlyOnions() {
-        return s.onlyOnions();
+        return false;
     }
     boolean isVegetarian() {
         return s.isVegetarian();
